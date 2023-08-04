@@ -1,0 +1,22 @@
+<table border="1">
+    <thead>
+    <tr>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Email</th>
+    <th>Department Name</th>
+    <th>Location Name</th>
+    <th>City</th>
+    </tr> 
+    </thead>
+    <tbody>
+    <tr *ngFor="let tempemp of EmployeeList">
+    <td>{{ tempemp.firstName }}</td>
+    <td>{{ tempemp.lastName }}</td>
+    <td>{{ tempemp.email }}</td>
+    <td>{{ tempemp.departmentName }}</td>
+    <td>{{ tempemp.locationName }}</td>
+    <td>{{ tempemp.city }}</td>
+    </tr>
+    </tbody>
+   </table>
